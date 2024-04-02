@@ -20,6 +20,19 @@ body {
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 20px;
+    animation-name: start2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    transform: none;
+}
+@keyframes start2 {
+    from {
+        transform: none;
+    }
+    to {
+        transform: translateY(-20%);
+    }
 }
 
 .headertxt1 , .headertxt2 , .headertxt3 , 

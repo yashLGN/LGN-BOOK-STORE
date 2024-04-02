@@ -24,7 +24,21 @@ body {
     font-weight: 700;
     font-size: 10rem;
     text-align: center;
+    animation-name: start;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    transform: none;
 }
+@keyframes start {
+    from {
+        transform: none;
+    }
+    to {
+        transform: translateY(20%);
+    }
+}
+
 .navbar {
     width: 800px;
     height: 2.5rem;
