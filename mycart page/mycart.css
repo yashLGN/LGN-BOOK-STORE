@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+}
+
+.main {
+    height: 100vh;
+    width: 800px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.navbar {
+    width: 800px;
+    height: 2.5rem;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home1 {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+    text-decoration: none;
+}
+.home1:hover {
+    background-color: rgba(255,232,31,255);
+}
+.home-button {
+    border: none;
+    background-color: transparent;
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,84,33,255);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.grid1 {
+    background-color: purple;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+.addtocart1 , .addtocart2 , .addtocart3 , 
+.addtocart4 , .addtocart5 , .addtocart6 ,
+.addtocart7 {
+    height: 60vh;
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtocart1 {
+    background-image: url('book covers 2/1_1.jpg');
+}
+.addtocart2 {
+    background-image: url('book covers 2/1.jpg');
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,232,31,255);
+    font-weight: 700;
+    font-size: 0rem;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0;
+    transition: font-size 0.5s , background-color 0.5s;
+}
+.grid1:hover .center {
+    font-size: 3rem;
+    background-color: rgba(0,0,0,0.5);
+    visibility: visible;
+}
+
+.checkout {
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.heading {
+    grid-column: 1/3;
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,232,31,255);
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+.items1 {
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,232,31,255);
+    font-weight: 500;
+    font-size: 2rem;
+}
+.items2 {
+    text-align: right;
+    margin: 0;
+    margin-right: 10px;
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,232,31,255);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.order {
+   height: auto;
+   width: auto;
+   position: fixed;
+   bottom: 10px;
+   border-radius: 10px;
+}
+.order2 {
+    font-family: "Bebas Neue", sans-serif , arial;
+    color: rgba(255,232,31,255);
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: rgba(255,232,31,255);
+    color: rgba(255,84,33,255);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: background-color 0.5s , color 0.5s;
+}
+.order2:hover {
+    color: rgba(255,232,31,255);
+    background-color:rgba(255,84,33,255);
+}
